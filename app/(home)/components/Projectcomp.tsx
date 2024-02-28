@@ -3,7 +3,6 @@ import React from 'react'
 import { SiBootstrap, SiCss3, SiExpress, SiHtml5, SiJsonwebtokens, SiLaravel, SiMaterialdesign, SiMongodb, SiMysql, SiNodedotjs, SiPhp, SiPrisma, SiReact, SiReactquery, SiTailwindcss } from 'react-icons/si'
 import Title from './Title'
 import Link from 'next/link'
-import { cn } from '@/lib/utils'
 import { DirectionAwareHover } from '@/components/UI/direction-aware-hover'
 
 
@@ -48,7 +47,7 @@ const Projectcomp = () => {
             title:'BMIS Capstone',
             tech:[SiPhp, SiMysql, SiHtml5, SiCss3],
             link:'https://bmis-rl.netlify.app/',
-            cover:'/project6.jpg',
+            cover:'/Project6.jpg',
             background:'bg-indigo-500'
         }
     ]
@@ -57,7 +56,7 @@ const Projectcomp = () => {
           <div  className='inline-block group mx-auto w-full'>
              <Title text="Projects 🚀" className='flex flex-col justify-center items-center'/>
           </div>
-          <div className='grid grid-cols-1 sm:grid-cols-2 pt-20 lg:px-44 gap-5 '>
+          <div className='grid grid-cols-1  pt-20 lg:px-44 gap-5 '>
                 {Projects.map((project, index) => {
                     return(
                         <Link href={project.link} key={index}>
