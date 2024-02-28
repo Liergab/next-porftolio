@@ -19,7 +19,7 @@ const Projectcomp = () => {
             title:'My first Portfolio',
             tech:[SiReact, SiTailwindcss],
             link:'https://brygabportfolio.netlify.app/',
-            cover:'/project3.jpg',
+            cover:'/Project3.jpg',
             background:'bg-green-500'
         },
          {
@@ -33,7 +33,7 @@ const Projectcomp = () => {
             title:'Mern TodoList (crud)',
             tech:[SiReact, SiBootstrap, SiNodedotjs, SiExpress, SiMongodb ],
             link:'https://github.com/Liergab/MERN-PROJECT',
-            cover:'/project4.jpg',
+            cover:'/Project4.jpg',
             background:'bg-blue-300'
         },
         {
@@ -56,7 +56,7 @@ const Projectcomp = () => {
           <div  className='inline-block group mx-auto w-full'>
              <Title text="Projects 🚀" className='flex flex-col justify-center items-center'/>
           </div>
-          <div className='grid grid-cols-1  pt-20 lg:px-44 gap-5 '>
+          <div className='grid grid-cols-1 sm:grid-cols-2 pt-20 lg:px-44 gap-5 '>
                 {Projects.map((project, index) => {
                     return(
                         <Link href={project.link} key={index}>
