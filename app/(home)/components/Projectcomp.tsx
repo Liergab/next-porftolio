@@ -12,42 +12,42 @@ const Projectcomp = () => {
             tech:[SiReact, SiReactquery, SiTailwindcss, SiLaravel, SiJsonwebtokens, SiMysql],
             link:'https://bmis-rl.netlify.app/',
             cover:'/project1.jpg',
-            background:'bg-indigo-500'
+            background:'bg-slate-900'
         },
         {
             title:'My first Portfolio',
             tech:[SiReact, SiTailwindcss],
             link:'https://brygabportfolio.netlify.app/',
             cover:'/Project3.jpg',
-            background:'bg-green-500'
+            background:'bg-slate-900'
         },
          {
             title:'Mern Blog (crud & authentication)',
             tech:[SiReact, SiReactquery,SiTailwindcss, SiNodedotjs, SiExpress, SiMongodb, SiNodedotjs, SiPrisma],
             link:'https://bryanblog.netlify.app/login',
             cover:'/project2.jpg',
-            background:'bg-fuchsia-300'
+            background:'bg-slate-900'
         },
         {
             title:'Mern TodoList (crud)',
             tech:[SiReact, SiBootstrap, SiNodedotjs, SiExpress, SiMongodb ],
             link:'https://github.com/Liergab/MERN-PROJECT',
             cover:'/Project4.jpg',
-            background:'bg-blue-300'
+            background:'bg-slate-900'
         },
         {
             title:'Friend flow (crud & authentication)',
             tech:[SiReact, SiReactquery, SiNodedotjs, SiExpress, SiMongodb, SiMaterialdesign],
             link:'https://frndflow.netlify.app/',
             cover:'/project5.jpg',
-            background:'bg-indigo-500'
+            background:'bg-slate-900'
         },
         {
             title:'BMIS Capstone',
             tech:[SiPhp, SiMysql, SiHtml5, SiCss3],
             link:'https://bmis-rl.netlify.app/',
             cover:'/Project6.jpg',
-            background:'bg-indigo-500'
+            background:'bg-slate-900'
         }
     ]
   return (
@@ -59,7 +59,7 @@ const Projectcomp = () => {
                 {Projects.map((project, index) => {
                     return(
                         <Link href={project.link} key={index}>
-                            <div className={`rounded-[6px] p-5 ${project.background}`}>
+                            <div className={`rounded-[6px] p-6 ${project.background}`}>
                                 <DirectionAwareHover imageUrl={project.cover} className='w-full rounded-[4px] space-y-5 cursor-pointer'>
                                     <h1 className='text-xl font-bold'>{project.title}</h1>
                                     <div className='flex gap-2 items-center'>
