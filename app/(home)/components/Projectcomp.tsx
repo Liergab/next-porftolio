@@ -54,7 +54,9 @@ const Projectcomp = () => {
     ]
   return (
     <div className='py-10 p-5 sm:p-0'>
-          <Title text="Projects 🚀" className='flex flex-col justify-center items-center'/>
+          <div  className='inline-block group mx-auto w-full'>
+             <Title text="Projects 🚀" className='flex flex-col justify-center items-center'/>
+          </div>
           <div className='grid grid-cols-1 sm:grid-cols-2 pt-20 lg:px-44 gap-5 '>
                 {Projects.map((project, index) => {
                     return(
