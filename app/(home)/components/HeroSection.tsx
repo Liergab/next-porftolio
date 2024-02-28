@@ -44,7 +44,7 @@ const HeroSection = () => {
                     <div  className='w-24 lg:w-32 h-24 lg:h-32  rounded-full bg-green-500'></div>
 
                 </div> */}
-                <Image src={code} alt='' />
+                <Image src={code} alt='code' />
                 <div className='glow absolute top-[40%] right-1/2 -z-10'></div>
             
             </div>

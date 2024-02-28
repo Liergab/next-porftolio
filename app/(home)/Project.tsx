@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import Skills from './components/Skills'
 import Projectcomp from './components/Projectcomp'
+import Footer from './components/Footer'
 
 
 const Project = () => {
@@ -21,6 +22,10 @@ const Project = () => {
       <div className='max-w-7xl mx-auto p-5 mt-20'>
           <Skills/>
           <Projectcomp />
+          <Footer />
+      </div>
+      <div>
+        
       </div>
     </div>
   )

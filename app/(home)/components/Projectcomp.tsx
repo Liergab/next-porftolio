@@ -52,7 +52,7 @@ const Projectcomp = () => {
         }
     ]
   return (
-    <div className='py-10 p-5 sm:p-0'>
+    <div className='py-10 p-5 sm:p-0 mt-6 lg:mt-20'>
           <div  className='inline-block group mx-auto w-full'>
              <Title text="Projects 🚀" className='flex flex-col justify-center items-center'/>
           </div>
