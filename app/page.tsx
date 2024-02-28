@@ -3,9 +3,9 @@ import Project from './(home)/Project'
 
 const page = () => {
   return (
-    <>
-    <Project />
-    </>
+    <div>
+      <Project />
+    </div>
   )
 }
 
