@@ -1,6 +1,5 @@
 "use client"
 import Link from 'next/link';
-import React from 'react'
 import { SiFacebook, SiGithub, SiLinkedin } from "react-icons/si";
 const Navbar = () => {
     const socials =[

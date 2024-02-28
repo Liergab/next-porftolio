@@ -1,5 +1,4 @@
 "use client"
-import React from 'react'
 import { SiBootstrap, SiCss3, SiExpress, SiHtml5, SiJsonwebtokens, SiLaravel, SiMaterialdesign, SiMongodb, SiMysql, SiNodedotjs, SiPhp, SiPrisma, SiReact, SiReactquery, SiTailwindcss } from 'react-icons/si'
 import Title from './Title'
 import Link from 'next/link'

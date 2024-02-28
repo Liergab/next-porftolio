@@ -1,5 +1,4 @@
 "use client"
-import React from 'react'
 import Title from './Title'
 import { HoverEffect } from '@/components/UI/card-hover-effect'
 import { SiExpress, SiGit, SiHtml5, SiJavascript, SiMaterialdesign, SiMongodb, SiMysql, SiNodedotjs, SiPhp, SiPostman, SiReact, SiTailwindcss } from 'react-icons/si'

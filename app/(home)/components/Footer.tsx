@@ -1,4 +1,3 @@
-import React from 'react'
 import Title from './Title'
 import { TextGenerateEffect } from '@/components/UI/text-generate-effect'
 import { BackgroundBeams } from '@/components/UI/background-beam';

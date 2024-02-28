@@ -1,8 +1,7 @@
 "use client"
 
-import { MovingBorder, MovingBorderBtn } from '@/components/UI/moving-border'
+import { MovingBorderBtn } from '@/components/UI/moving-border'
 import Link from 'next/link'
-import React from 'react'
 import code from '../assets/code.gif'
 import Image from 'next/image'
 import Title from './Title'
@@ -29,21 +28,6 @@ const HeroSection = () => {
         </div>
         <div className='relative'>
             <div className=' w-72 h-72 flex flex-col items-center space-y-3 -rotate-[0deg] relative'>
-
-                {/* <div className='flex gap-3 translate-x-8 '>
-
-                    <div className='w-24 lg:w-32 h-24 lg:h-32 rounded-2xl bg-green-500'></div>
-
-                    <div className='w-24 lg:w-32 h-24 lg:h-32  rounded-full bg-indigo-500'></div>
-
-                </div> */}
-                {/* <div className='flex gap-3 '>
-
-                    <div className='w-24 lg:w-32 h-24 lg:h-32 rounded-2xl bg-indigo-500'></div>
-
-                    <div  className='w-24 lg:w-32 h-24 lg:h-32  rounded-full bg-green-500'></div>
-
-                </div> */}
                 <Image src={code} alt='code' />
                 <div className='glow absolute top-[40%] right-1/2 -z-10'></div>
             
