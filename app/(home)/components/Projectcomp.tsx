@@ -1,5 +1,5 @@
 "use client"
-import { SiBootstrap, SiCss3, SiExpress, SiHtml5, SiJsonwebtokens, SiLaravel, SiMaterialdesign, SiMongodb, SiMysql, SiNodedotjs, SiPhp, SiPrisma, SiReact, SiReactquery, SiTailwindcss } from 'react-icons/si'
+import { SiBootstrap, SiCss3, SiExpress, SiHtml5, SiJsonwebtokens, SiLaravel, SiMaterialdesign, SiMongodb, SiMui, SiMysql, SiNodedotjs, SiPhp, SiPrisma, SiReact, SiReactquery, SiRedux, SiTailwindcss } from 'react-icons/si'
 import Title from './Title'
 import Link from 'next/link'
 import { DirectionAwareHover } from '@/components/UI/direction-aware-hover'
@@ -7,6 +7,13 @@ import { DirectionAwareHover } from '@/components/UI/direction-aware-hover'
 
 const Projectcomp = () => {
     const Projects = [
+        {
+            title:'Movie-Rating-App',
+            tech:[SiReact,SiNodedotjs, SiExpress, SiMongodb, SiRedux, SiMui],
+            link:'https://review-movie-app.netlify.app',
+            cover:'/Project7.png',
+            background:'bg-slate-900'
+        },
         {
             title:'BMIS (crud & authentication)',
             tech:[SiReact, SiReactquery, SiTailwindcss, SiLaravel, SiJsonwebtokens, SiMysql],
@@ -48,7 +55,8 @@ const Projectcomp = () => {
             link:'https://bmis-rl.netlify.app/',
             cover:'/Project6.jpg',
             background:'bg-slate-900'
-        }
+        },
+       
     ]
   return (
     <div className='py-10 p-5 sm:p-0 mt-6 lg:mt-20'>
