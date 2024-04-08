@@ -11,7 +11,7 @@ const Projectcomp = () => {
             title:'Movie-Rating-App',
             tech:[SiReact,SiNodedotjs, SiExpress, SiMongodb, SiRedux, SiMui],
             link:'https://review-movie-app.netlify.app',
-            cover:'/Project7.png',
+            cover:'/project7.png',
             background:'bg-slate-900'
         },
         {
