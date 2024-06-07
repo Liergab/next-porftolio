@@ -8,6 +8,13 @@ import { DirectionAwareHover } from '@/components/UI/direction-aware-hover'
 const Projectcomp = () => {
     const Projects = [
         {
+            title:'OJT-CONNECT',
+            tech:[SiReact,SiNodedotjs, SiExpress, SiMongodb, SiRedux, SiMui],
+            link:'https://ojtconnect.com/',
+            cover:'/ojt-connect.png',
+            background:'bg-slate-900'
+        },
+        {
             title:'Movie-Rating-App',
             tech:[SiReact,SiNodedotjs, SiExpress, SiMongodb, SiRedux, SiMui],
             link:'https://review-movie-app.netlify.app',

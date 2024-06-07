@@ -4,7 +4,7 @@ import { BackgroundBeams } from '@/components/UI/background-beam';
 import { SiFacebook, SiGithub, SiLinkedin, SiTwitter } from 'react-icons/si';
 import Link from 'next/link';
 const Footer = () => {
-    const words = `I'm a recent graduate passionate about creating and building simple web applications. I enjoy studying and exploring the diverse world of web development, constantly seeking to enhance my skills and knowledge.
+    const words = `I'm a Web developer passionate about creating and building  web applications. I enjoy studying and exploring the diverse world of web development, constantly seeking to enhance my skills and knowledge.
                     `;
     const socials =[
             {
